@@ -1,0 +1,5 @@
+<?php foreach ($urunvaryant as $row) { ?>
+                                                            <input type="checkbox" id="scales" name="sonuc[]" checked>
+                                                            <label for="scales"><?=$row->title;?></label>
+
+                                                        <?php } ?>
